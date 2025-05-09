@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="27.0.2">
   <diagram name="Page-1" id="iCeU4zL7lOratuz6QNaz">
-    <mxGraphModel dx="1489" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="868" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,51 +69,57 @@
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-21" value="&lt;div&gt;Detailed View&lt;/div&gt;" style="endArrow=none;dashed=1;html=1;rounded=0;fontSize=15;fontStyle=1;fontColor=light-dark(#000080, #ededed);strokeColor=#1F2EC6;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="KS4ySXi1130G8eEyBlnp-20">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="462" y="310" as="sourcePoint" />
+            <mxPoint x="462" y="280" as="sourcePoint" />
             <mxPoint x="430" y="230" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KS4ySXi1130G8eEyBlnp-22" value="Architecture For Preprocessing Data " style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=17;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="40" y="880" width="360" height="40" as="geometry" />
+        <mxCell id="KS4ySXi1130G8eEyBlnp-22" value="Architecture For Preprocessing Data " style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="41" y="300" width="349" height="20" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-25" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.storage;" vertex="1" parent="1">
-          <mxGeometry x="44.87" y="977.4999999999999" width="37.5" height="50" as="geometry" />
+          <mxGeometry x="45.87" y="377.4999999999999" width="37.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-26" value="" style="endArrow=classic;html=1;rounded=0;fontSize=13;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KS4ySXi1130G8eEyBlnp-25" target="KS4ySXi1130G8eEyBlnp-30">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="82.37" y="1002.0799999999999" as="sourcePoint" />
-            <mxPoint x="133.62" y="1002.5" as="targetPoint" />
+            <mxPoint x="83.37" y="402.0799999999999" as="sourcePoint" />
+            <mxPoint x="134.62" y="402.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-27" value="Data Storage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="20" y="1027.5" width="87.25" height="45" as="geometry" />
+          <mxGeometry x="21" y="427.5" width="87.25" height="45" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-30" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 128), rgb(237, 237, 237));&quot;&gt;Preprocessing&lt;/span&gt;&lt;/div&gt;&lt;div&gt; and &lt;span style=&quot;color: rgb(31, 46, 198);&quot;&gt;Labeling&lt;/span&gt; the Images&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=14;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="113.62" y="970" width="133.25" height="65" as="geometry" />
+          <mxGeometry x="114.62" y="370" width="133.25" height="65" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-37" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.annotation_2;align=left;labelPosition=right;pointerEvents=1;" vertex="1" parent="1">
-          <mxGeometry x="246.87" y="950" width="40" height="100" as="geometry" />
+          <mxGeometry x="247.87" y="350" width="40" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0.497;exitY=0.505;exitDx=0;exitDy=0;exitPerimeter=0;strokeWidth=2;entryX=0.984;entryY=0.506;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="262.52000000000004" y="999.8" as="sourcePoint" />
-            <mxPoint x="286.87000000000006" y="999.9" as="targetPoint" />
+            <mxPoint x="263.52000000000004" y="399.79999999999995" as="sourcePoint" />
+            <mxPoint x="287.87000000000006" y="399.9" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-39" value="Train Dataset" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="286.87" y="939.5" width="100" height="21.5" as="geometry" />
+          <mxGeometry x="287.87" y="339.5" width="100" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-43" value="Eval Dataset" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="286.87" y="989.25" width="100" height="21.5" as="geometry" />
+          <mxGeometry x="287.87" y="389.25" width="100" height="21.5" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-44" value="Test Dataset" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=12;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="286.87" y="1039.25" width="100" height="21.5" as="geometry" />
+          <mxGeometry x="287.87" y="439.25" width="100" height="21.5" as="geometry" />
         </mxCell>
-        <mxCell id="KS4ySXi1130G8eEyBlnp-46" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#434445;aspect=fixed;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.vvd.storage;" vertex="1" parent="1">
-          <mxGeometry x="38.5" y="279.9999999999999" width="37.5" height="50" as="geometry" />
+        <mxCell id="KS4ySXi1130G8eEyBlnp-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=2;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KS4ySXi1130G8eEyBlnp-39" target="KS4ySXi1130G8eEyBlnp-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="444" y="377.5" as="sourcePoint" />
+            <mxPoint x="430" y="350" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="KS4ySXi1130G8eEyBlnp-47" value="Data Storage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="7.25" y="340" width="100" height="45" as="geometry" />
+        <mxCell id="KS4ySXi1130G8eEyBlnp-49" value="Model" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="425" y="336.56" width="100" height="27.37" as="geometry" />
+        </mxCell>
+        <mxCell id="KS4ySXi1130G8eEyBlnp-52" value="Specification and Training " style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="420.5" y="300" width="409.5" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
