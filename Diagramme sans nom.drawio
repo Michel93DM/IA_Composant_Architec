@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:136.0) Gecko/20100101 Firefox/136.0" version="27.0.2">
   <diagram name="Page-1" id="iCeU4zL7lOratuz6QNaz">
-    <mxGraphModel dx="868" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1097" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,11 +115,28 @@
             <mxPoint x="430" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KS4ySXi1130G8eEyBlnp-49" value="Model" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="425" y="336.56" width="100" height="27.37" as="geometry" />
+        <mxCell id="KS4ySXi1130G8eEyBlnp-49" value="Model &lt;span style=&quot;color: light-dark(rgb(128, 0, 128), rgb(237, 237, 237));&quot;&gt;(YOLO, ResNet...)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="425" y="336.56" width="215" height="27.37" as="geometry" />
         </mxCell>
         <mxCell id="KS4ySXi1130G8eEyBlnp-52" value="Specification and Training " style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=15;fontStyle=1" vertex="1" parent="1">
-          <mxGeometry x="420.5" y="300" width="409.5" height="20" as="geometry" />
+          <mxGeometry x="420.5" y="300" width="219.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KS4ySXi1130G8eEyBlnp-54" value="UQ-Modules" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;fontStyle=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="425" y="403.04" width="115" height="27.37" as="geometry" />
+        </mxCell>
+        <mxCell id="KS4ySXi1130G8eEyBlnp-55" value="Robustness-Modules" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;fontSize=13;fontStyle=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="425" y="436.17" width="215" height="27.37" as="geometry" />
+        </mxCell>
+        <mxCell id="KS4ySXi1130G8eEyBlnp-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="KS4ySXi1130G8eEyBlnp-55" target="KS4ySXi1130G8eEyBlnp-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="589.4750000000001" y="377.49737" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KS4ySXi1130G8eEyBlnp-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.137;entryY=0.985;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="KS4ySXi1130G8eEyBlnp-54" target="KS4ySXi1130G8eEyBlnp-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KS4ySXi1130G8eEyBlnp-67" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(128, 0, 128), rgb(237, 237, 237));&quot;&gt;UQModels Library&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="377.5" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
