@@ -6,9 +6,9 @@ Finally, i list improvements that could be applied for a perfect automated compo
 
 ## 1. **Explainability KPI**
    - **Description**: This KPI evaluates the interpretability and explainability of the machine learning model's decisions, particularly how easily stakeholders can understand why the model predicted a certain welding quality.
-   - **Example**: The use of SHAP (Shapley Additive Explanations) values or LIME (Local Interpretable Model-agnostic Explanations) to explain why the model classifies a weld as defective.
+   - **Example**: The use of PUNCC or LIME (Local Interpretable Model-agnostic Explanations) to explain why the model classifies a weld as defective.
    - **Metadata**: 
-     - **Parameters**: Shapley values, LIME explanations, Feature importance scores.
+     - **Parameters**: PUNCC values and box boundaries, LIME explanations, Feature importance scores.
      - **Dimension**: Percentage of predictions with interpretable explanations.
    - **Objective**: Ensure that the model’s decisions can be explained in a way that is understandable by engineers, quality controllers, or non-technical users.
    - **Phase**: Evaluation, Operational phase.
@@ -18,7 +18,7 @@ Finally, i list improvements that could be applied for a perfect automated compo
 
 ## 2. **Robustness KPI**
    - **Description**: This KPI measures the model's ability to maintain high accuracy despite variations in input data (e.g., different welding conditions, equipment, material types). A robust model should perform consistently in the face of noise or shifts in input features.
-   - **Example**: The model's performance under various noisy data scenarios, such as slight variations in welding speed, voltage, or material quality.
+   - **Example**: The model's performance under various noisy data scenarios, such as slight variations in welding speed, voltage, or material quality. we could test if AIMOS could help in our use case.
    - **Metadata**: 
      - **Parameters**: Model accuracy under different data perturbations, sensitivity to input changes.
      - **Dimension**: Stability of model performance (e.g., percentage change in accuracy when noise is added).
@@ -63,6 +63,17 @@ Finally, i list improvements that could be applied for a perfect automated compo
    - **Sample KPI Expected**: Recall = 0.92 (92% of defective welds are identified).
 
 ---
+## 6. **False Positive Rate (FPR) KPI**
+   - **Description**: This KPI measures the proportion of incorrectly identified positive instances (false positives) to the total number of actual negative instances. In welding quality prediction, this means measuring how often the model predicts a defect in a good weld.
+   - **Example**: The model predicts a weld as defective, but it is actually good. The FPR KPI quantifies how often this happens.
+   - **Metadata**:
+     - **Parameters**: False positives, True negatives.
+     - **Dimension**: Ratio (0-1).
+   - **Objective**: Minimize the false positive rate to avoid unnecessary rework or rejection of good welds.
+   - **Phase**: Evaluation, Operational phase.
+   - **Sample KPI Expected**: False Positive Rate = 0.03 (3% of good welds are incorrectly labeled as defective).
+
+---
 
 ## Summary of KPIs
 
@@ -73,7 +84,7 @@ Finally, i list improvements that could be applied for a perfect automated compo
 | **OODD (Out-of-Distribution Detection)** | Detects when input data is out of distribution.         | Prevent unreliable predictions on novel data.  | 98% correct OODD identification | Evaluation, Operational     |
 | **Uncertainty Quantification (UQ)** | Quantifies the model's confidence in its predictions.    | Improve decision-making with uncertainty scores.| 90% predictions with 80% confidence | Evaluation, Operational     |
 | **Recall**                       | Measures the model's ability to identify true positives (defects). | Maximize defect detection.                   | Recall = 0.92                   | Evaluation, Operational     |
-
+| **False Positive Rate (FPR)**    | Measures the proportion of false positives.               | Minimize false positives to reduce unnecessary rework. | FPR = 0.03 (3% of non-defective welds misclassified) | Evaluation, Operational     |
 
 ## Future Improvements and Recommendations
 
