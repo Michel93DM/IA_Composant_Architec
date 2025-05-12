@@ -4,7 +4,7 @@ This repository presents the evaluation framework for the AI component developed
 
 ## 📁 Repository Structure
 
-### 🔧 Architecture & Lifecycle
+### 🔧 Architecture
 Contains the complete architecture of the AI component, covering:
 - Training phase
 - Evaluation phase
