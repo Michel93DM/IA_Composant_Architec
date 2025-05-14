@@ -35,7 +35,7 @@ The trained model is evaluated using various performance metrics, including F1-s
 
 The collected images undergo a series of preprocessing steps to standardize and enhance the data:
 
-- **Labeling**: Images are annotated with labels (e.g., OK, KO).
+- **Labeling**: Images are annotated with labels (e.g., OK, KO), and segmented using (LabelStudio or a similar softwar).
 - **Preprocessing Techniques**:
   - **Resizing** to a consistent input size suitable for the model.
   - **Normalization** of pixel values to ensure consistent input distributions.
