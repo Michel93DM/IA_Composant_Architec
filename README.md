@@ -25,6 +25,7 @@ Defines and tracks essential KPIs to ensure:
 - User-friendliness
 of the deployed AI component
 
+Finally, i present some improvment actions that could be made to improve both automation and performance of the component.
 ---
 
 
