@@ -11,7 +11,7 @@ The architecture is composed of mainly three parts:
     
     (iii) Finally, the output of the component that the user could use as an assistant for decision making. 
 
-![Illustration of the Architecture](./ArchitectureIA.jpg)
+![Illustration of the Architecture](./ArchiteureIA.jpg)
 
 #### Techniques that could be used
 
