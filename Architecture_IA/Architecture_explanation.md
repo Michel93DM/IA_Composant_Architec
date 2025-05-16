@@ -11,6 +11,8 @@ The architecture is composed of mainly three parts:
     
     (iii) Finally, the output of the component that the user could use as an assistant for decision making. 
 
+![Illustration of the Architecture](./ArchitectureIA.jpg)
+
 #### Techniques that could be used
 
 Images are first collected using the Renault camera, then labeled and preprocessed to train a model for detecting the welding quality. This process could be done by using different models for this case we could test two main models: YOLO (You Only Look Once) and the Faster R-CNN. For the Robustness modules we could use AIMOS, or Adversial attacks by pertubating the images. For the Xplainability we could use Lime or PUNCC. To quantify the uncertainity also we could use the UQModels Library. 
