@@ -22,10 +22,11 @@ Includes datasets relevant to the development and evaluation of the AI component
 Defines and tracks essential KPIs to ensure:
 - Trustworthiness
 - Robustness
-- User-friendliness
-of the deployed AI component
-
+- Performance
+- User-friendliness of the deployed AI component
+  
 Finally, i present some improvment actions that could be made to improve both automation and performance of the component.
+
 ---
 
 
